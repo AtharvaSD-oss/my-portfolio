@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Dhole - Computer Engineering Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Atharva Dhole</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#showcase" class="nav-link">Showcase</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-3d-container">
+            <canvas id="hero-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-name">Atharva Dhole</span>
+                    <span class="hero-subtitle">Computer Engineering Student</span>
+                </h1>
+                <p class="hero-description">Passionate about technology, design, and creating innovative solutions. Currently pursuing Computer Engineering with expertise in Python development and UI/UX design using Figma.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                    <a href="#about" class="btn btn--outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-3d">
+                    <canvas id="about-canvas"></canvas>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-description">
+                        <p>I'm a Computer Engineering student with a passion for blending technology and design. My journey in tech has led me to explore the intersection of programming and user experience, where I create solutions that are both functional and beautiful.</p>
+                        <p>Currently focused on building modern web applications and exploring 3D technologies, I believe in the power of clean code and intuitive design to solve real-world problems.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <strong>Education:</strong>
+                            <span>Computer Engineering Student</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Location:</strong>
+                            <span>India</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Focus:</strong>
+                            <span>Building modern web applications and exploring 3D technologies</span>
+                        </div>
+                    </div>
+                    <div class="about-interests">
+                        <h3>Interests</h3>
+                        <div class="interest-tags">
+                            <span class="interest-tag">Web Development</span>
+                            <span class="interest-tag">UI/UX Design</span>
+                            <span class="interest-tag">3D Graphics</span>
+                            <span class="interest-tag">Software Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Object-oriented programming, web development, data structures, automation scripts</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="figma">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Figma</h3>
+                    <p>UI/UX design, prototyping, design systems, collaborative design workflows</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Modern ES6+, web APIs, DOM manipulation, asynchronous programming</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="html-css">
+                    <div class="skill-icon">💎</div>
+                    <h3>HTML/CSS</h3>
+                    <p>Semantic markup, responsive design, CSS animations, modern layouts</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card coming-soon">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="placeholder-icon">🚀</div>
+                            <h3>Coming Soon</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Exciting Projects in Development</h3>
+                        <p>Exciting projects in development. Check back soon to see my latest work in web development and design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Web Technologies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="placeholder-icon">💡</div>
+                            <h3>Innovation Hub</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Creative Solutions</h3>
+                        <p>Exploring the intersection of technology and creativity to build solutions that make a difference. Stay tuned for innovative projects combining programming and design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">3D Graphics</span>
+                            <span class="tech-tag">Interactive Design</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h2 class="section-title">Creative Showcase</h2>
+            <div class="showcase-content">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <div class="video-icon">🎬</div>
+                        <h3>F1 Unreal Engine Cinematic</h3>
+                        <p>High-octane sequence showcasing 3D artistry and technical skills</p>
+                        <div class="showcase-status">
+                            <span class="status status--info">In Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-description">
+                    <h3>3D Artistry & Technical Skills</h3>
+                    <p>This showcase demonstrates my exploration into 3D graphics and cinematic experiences, combining technical expertise with creative vision. The F1 Unreal Engine cinematic represents the convergence of my passion for technology and visual storytelling.</p>
+                    <div class="showcase-features">
+                        <ul>
+                            <li>Advanced 3D modeling and animation</li>
+                            <li>Real-time rendering techniques</li>
+                            <li>Cinematic camera work and lighting</li>
+                            <li>Post-processing and visual effects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-3d">
+            <canvas id="contact-canvas"></canvas>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p>Ready to discuss your next project or just want to say hello? I'd love to hear from you and explore how we can create something amazing together.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:dholeathrva@gmail.com">atharva.dhole@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong>
+                            <span>India</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Status:</strong>
+                            <span>Available for collaborations</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/AtharvaSD-oss" target="_blank" class="social-link">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/atharvadhole" target="_blank" class="social-link">
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Atharva Dhole. Crafted with passion and precision.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
